@@ -11,6 +11,9 @@ requires 'Text::Balanced';
 requires 'Params::Check';
 requires 'base';
 
+author_requires 'Test::Pod';
+author_requires 'Test::Pod::Coverage';
+
 test_requires 'Test::More';
 
 author_tests( 'xt' );
