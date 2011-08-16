@@ -3,11 +3,13 @@
 use strict;
 use warnings;
 
-BEGIN {
-    use Test::More;
-    eval "use Test::Compile";
-    Test::More->builder->BAIL_OUT(
-        "Test::Compile required for testing compilation") if $@;
-    all_pm_files_ok();
+use Test::More tests => 1;
+
+BEGIN { 
+    use_ok( 'String::Interpolate::Shell' );
 }
-    
+
+
+
+diag( "Testing String::Interpolate::Shell $String::Interpolate::Shell::VERSION, Perl $], $^X" );
+
