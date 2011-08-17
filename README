@@ -1,9 +1,8 @@
 String::Interpolate::Shell
 --------------------------
 
-Interpolates variables into strings.  Variables are specified using a
-syntax similar to that use by bash.
-
+Interpolates variables into strings using a syntax similar to that use
+by bash.
 
 
 
