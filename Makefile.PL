@@ -22,6 +22,7 @@ my %WriteMakefileArgs = (
     "Params::Check" => 0,
     "Text::Balanced" => 0,
     "base" => 0,
+    "if" => 0,
     "strict" => 0,
     "warnings" => 0
   },
@@ -52,6 +53,7 @@ my %FallbackPrereqs = (
   "Text::Balanced" => 0,
   "base" => 0,
   "blib" => "1.01",
+  "if" => 0,
   "strict" => 0,
   "warnings" => 0
 );

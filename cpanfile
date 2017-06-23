@@ -3,6 +3,7 @@ requires "Exporter" => "0";
 requires "Params::Check" => "0";
 requires "Text::Balanced" => "0";
 requires "base" => "0";
+requires "if" => "0";
 requires "strict" => "0";
 requires "warnings" => "0";
 

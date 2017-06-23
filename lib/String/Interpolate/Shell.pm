@@ -35,6 +35,8 @@ sub _handle_undef {
 
     return $var->{$q} if defined $var->{$q};
 
+    no if $] >= 5.022, warnings => 'redundant';
+
     carp( sprintf( $attr->{undef_message}, $rep) )
       if $attr->{undef_verbosity} eq 'warn';
 
