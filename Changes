@@ -1,0 +1,7 @@
+Revision history for {{$dist->name}}
+
+{{$NEXT}}
+
+ [BUILD]
+
+   * switch to Dist::Zilla
