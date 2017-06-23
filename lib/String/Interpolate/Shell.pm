@@ -13,7 +13,7 @@ use Exporter 'import';
 
 our @EXPORT_OK = qw[ strinterp ];
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub _extract {
 

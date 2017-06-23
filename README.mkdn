@@ -4,7 +4,7 @@ String::Interpolate::Shell - Variable interpolation, shell style
 
 # VERSION
 
-version 0.02
+version 0.03
 
 # SYNOPSIS
 
